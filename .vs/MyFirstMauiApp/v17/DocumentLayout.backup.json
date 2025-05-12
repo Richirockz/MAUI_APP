@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ricar\\source\\repos\\MyFirstMauiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E20256D7-BAEB-4BE6-B685-628C471B53E6}|MyFirstMauiApp\\MyFirstMauiApp.csproj|c:\\users\\ricar\\source\\repos\\myfirstmauiapp\\myfirstmauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E20256D7-BAEB-4BE6-B685-628C471B53E6}|MyFirstMauiApp\\MyFirstMauiApp.csproj|solutionrelative:myfirstmauiapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E20256D7-BAEB-4BE6-B685-628C471B53E6}|MyFirstMauiApp\\MyFirstMauiApp.csproj|c:\\users\\ricar\\source\\repos\\myfirstmauiapp\\myfirstmauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E20256D7-BAEB-4BE6-B685-628C471B53E6}|MyFirstMauiApp\\MyFirstMauiApp.csproj|solutionrelative:myfirstmauiapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 381,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ricar\\source\\repos\\MyFirstMauiApp\\MyFirstMauiApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyFirstMauiApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ricar\\source\\repos\\MyFirstMauiApp\\MyFirstMauiApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyFirstMauiApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:04:50.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ricar\\source\\repos\\MyFirstMauiApp\\MyFirstMauiApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyFirstMauiApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ricar\\source\\repos\\MyFirstMauiApp\\MyFirstMauiApp\\MainPage.xaml",
+              "RelativeToolTip": "MyFirstMauiApp\\MainPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T18:59:53.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
