@@ -1,3 +1,4 @@
+using System.Net.Mime;
 using LZ1.Core;
 using LZ1.Core.Services;
 
@@ -17,9 +18,9 @@ public class DialogService : IDialogService
 
     private static Page GetMainPage()
     {
-        if (Application.Current != null && Application.Current.MainPage != null)
+        if (MediaTypeNames.Application.Current != null && MediaTypeNames.Application.Current.MainPage != null)
         {
-            return Application.Current.MainPage;
+            return MediaTypeNames.Application.Current.MainPage;
         }
 
         throw new InvalidOperationException("DialogService.MainPage cannot be null.");

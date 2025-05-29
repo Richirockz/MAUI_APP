@@ -6,6 +6,8 @@ namespace LZ1.Core.Tests;
 [TestFixture]
 public class CounterStateTests : TestsBase
 {
+    private object counterService;
+
     [Test]
     public void TestIncrement()
     {
@@ -22,8 +24,13 @@ public class CounterStateTests : TestsBase
     [Test]
     public void TestDecrement()
     {
-        // TODO Write a test for counterState.Decrement()
+        var provider = CreateProvider();
+        var counterState = provider.GetRequiredService<ICounterState>();
+           
+        Assert.That(counterState.Count, Is.EqualTo(0));
 
-        Assert.Inconclusive("This test is not implemented.");
+        counterState.Increment();
+
+        Assert.That(counterState.Count, Is.EqualTo(1));
     }
 }
