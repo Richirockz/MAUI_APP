@@ -6,8 +6,6 @@ namespace LZ1.Core.Tests;
 [TestFixture]
 public class CounterStateTests : TestsBase
 {
-    private object counterService;
-
     [Test]
     public void TestIncrement()
     {

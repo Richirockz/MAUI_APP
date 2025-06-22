@@ -1,8 +1,5 @@
-using System.Net.Mime;
-using LZ1.App.Services;
 using LZ1.Core;
 using LZ1.Core.Services;
-using Microsoft.Maui.Controls;
 
 namespace LZ1.App.Services;
 
@@ -10,7 +7,7 @@ public class DialogService : IDialogService
 {
     public async Task<bool> AskAsync(string message)
     {
-        return !await GetMainPage().DisplayAlert("Confirm", message, "Yes", "No");
+        return await GetMainPage().DisplayAlert("Confirm", message, "Yes", "No");
     }
 
     public Task Show(string message)
@@ -20,9 +17,9 @@ public class DialogService : IDialogService
 
     private static Page GetMainPage()
     {
-        if (MediaTypeNames.Application.Current != null && MediaTypeNames.Application.Current.MainPage != null)
+        if (Application.Current != null && Application.Current.MainPage != null)
         {
-            return MediaTypeNames.Application.Current.MainPage;
+            return Application.Current.MainPage;
         }
 
         throw new InvalidOperationException("DialogService.MainPage cannot be null.");
